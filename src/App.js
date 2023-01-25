@@ -73,7 +73,7 @@ const dummyData = [
 
 function App() {
 
-  const [data, dispatch] = useReducer(reducer, [])
+  const [data, dispatch] = useReducer(reducer, dummyData)
 
   const dataId = useRef(0)
 
